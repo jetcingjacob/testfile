@@ -124,16 +124,7 @@ my_parrot.breathe()
 my_parrot.fly()
 my_parrot.imitate()
 
-# prompt: a slider using jupyter widgets
-
-from ipywidgets import IntSlider
-
-# Create a slider with a range of 0-10
-slider = IntSlider(min=0, max=10)
-
-# Display the slider
-display(slider)
-
+#Bank
 class BankAccount:
   def __init__(self, accountNumber, name, balance):
     self.accountNumber = accountNumber
